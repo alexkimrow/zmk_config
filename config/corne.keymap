@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-#define &kpkeycode) &&kp LS(keycode) keycode
+#define KP(keycode) &kp LS(keycode) keycode
 
 / {
     chosen {
