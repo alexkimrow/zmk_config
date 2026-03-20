@@ -41,6 +41,46 @@
             bindings = <&kp LG(A)>;
             key-positions = <10 11>;
         };
+
+        combo_undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <11 12>;
+        };
+
+        combo_redo {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <12 13>;
+        };
+
+        combo_rt_lpar {
+            bindings = <&kp LPAR>;
+            key-positions = <3 4>;
+        };
+
+        combo_yu_rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <5 6>;
+        };
+
+        combo_fg_lbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <13 14>;
+        };
+
+        combo_hj_rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <15 16>;
+        };
+
+        combo_vb_lbkt {
+            bindings = <&kp LBKT>;
+            key-positions = <23 24>;
+        };
+
+        combo_nm_rbkt {
+            bindings = <&kp RBKT>;
+            key-positions = <25 26>;
+        };
     };
 
         behaviors {
