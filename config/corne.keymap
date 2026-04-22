@@ -64,14 +64,16 @@
             key-positions = <6 7>;
         };
 
-        combo_df_lbrc_lcbr {
-            bindings = <KP(LBRC)>;
+        combo_df_lbkt_lcbr {
+            bindings = <KP(LBKT)>;
             key-positions = <12 13>;
+            slow-release;
         };
 
-        combo_jk_rbrc_rcbr {
-            bindings = <KP(RBRC)>;
+        combo_jk_rbkt_rcbr {
+            bindings = <KP(RBKT)>;
             key-positions = <16 17>;
+            slow-release;
         };
 
         combo_op_minus_under {
@@ -137,7 +139,7 @@
 
         combo_asd_caps {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <10 12>;
+            key-positions = <10 11 12>;
         };
 
         combo_qw_grave_tilde {
@@ -216,13 +218,15 @@
         };
 
         combo_uio_excl {
-            bindings = <&kp EXCL>;
+            bindings = <KP(EQUAL)>;
             key-positions = <6 7 8>;
+            slow-release;
         };
 
-        combo_jko_qmark {
-            bindings = <&kp QMARK>;
-            key-positions = <8 16 17>;
+        combo_jkl_minus_under {
+            bindings = <KP(MINUS)>;
+            key-positions = <16 17 18>;
+            slow-release;
         };
 
         combo_m_comma_o_dllr {
@@ -238,6 +242,12 @@
         combo_jl_amps {
             bindings = <&kp AMPS>;
             key-positions = <16 18>;
+        };
+
+        combo_comma_dot_semi_colon {
+            bindings = <KP(SEMI)>;
+            key-positions = <27 28>;
+            slow-release;
         };
 
         combo_iop_mute {
