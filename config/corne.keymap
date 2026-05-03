@@ -22,7 +22,7 @@
     combos {
         compatible = "zmk,combos";
         timeout-ms = <30>;
-        require-prior-idle-ms = <120>;
+        require-prior-idle-ms = <150>;
 
         combo_copy {
             bindings = <&kp LG(C)>;
