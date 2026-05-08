@@ -63,6 +63,7 @@
             key-positions = <20 21 22>;
         };
 
+        /*
         combo_er_lpar {
             bindings = <&kp LPAR>;
             key-positions = <2 3>;
@@ -94,6 +95,7 @@
             bindings = <KP(RBKT)>;
             key-positions = <15 16>;
         };
+        */
 
 
 
@@ -112,70 +114,14 @@
             key-positions = <10 11 12>;
         };
 
+        /*
         combo_qw_grave_tilde {
             bindings = <KP(GRAVE)>;
             key-positions = <0 1>;
         };
+        */
 
-        combo_qa_num_1 {
-            bindings = <KP(N1)>;
-            key-positions = <0 10>;
-            layers = <0>;
-        };
 
-        combo_ws_num_2 {
-            bindings = <KP(N2)>;
-            key-positions = <1 11>;
-            layers = <0>;
-        };
-
-        combo_ed_num_3 {
-            bindings = <KP(N3)>;
-            key-positions = <2 12>;
-            layers = <0>;
-        };
-
-        combo_rf_num_4 {
-            bindings = <KP(N4)>;
-            key-positions = <3 13>;
-            layers = <0>;
-        };
-
-        combo_tg_num_5 {
-            bindings = <KP(N5)>;
-            key-positions = <4 14>;
-            layers = <0>;
-        };
-
-        combo_yh_num_6 {
-            bindings = <KP(N6)>;
-            key-positions = <5 15>;
-            layers = <0>;
-        };
-
-        combo_uj_num_7 {
-            bindings = <KP(N7)>;
-            key-positions = <6 16>;
-            layers = <0>;
-        };
-
-        combo_ik_num_8 {
-            bindings = <KP(N8)>;
-            key-positions = <7 17>;
-            layers = <0>;
-        };
-
-        combo_ol_num_9 {
-            bindings = <KP(N9)>;
-            key-positions = <8 18>;
-            layers = <0>;
-        };
-
-        combo_p_sqt_num_0 {
-            bindings = <KP(N0)>;
-            key-positions = <9 19>;
-            layers = <0>;
-        };
 
         combo_io_bspc {
             bindings = <&kp BACKSPACE>;
@@ -187,6 +133,7 @@
             key-positions = <17 18>;
         };
 
+        /*
         combo_uio_excl {
             bindings = <KP(EQUAL)>;
             key-positions = <6 7 8>;
@@ -198,6 +145,7 @@
             key-positions = <16 17 18>;
             slow-release;
         };
+        */
 
 
     };
